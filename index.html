@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="IMG/pic.jpg" alt=""></a>
+    </section>
+    <div class="container">
+        <h1>Lottery App</h1>
+        <p>Enter 3 unique numbers between 0 and 9:</p>
+        <form id="lottery-form">
+            <input type="number" id="num1" min="0" max="9" required>
+            <input type="number" id="num2" min="0" max="9" required>
+            <input type="number" id="num3" min="0" max="9" required>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
